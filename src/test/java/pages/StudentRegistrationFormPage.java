@@ -74,7 +74,6 @@ public class StudentRegistrationFormPage {
                                       String day, String month, String year, String hobby1, String fileName,
                                       String currentAddress, String state, String city){
     $("#example-modal-sizes-title-lg").shouldHave(text("Thanks for submitting the form"));
-
     $x("//td[text()='Student Name']").parent().shouldHave(text(firstName + " " + lastName));
     $x("//td[text()='Student Email']").parent().shouldHave(text(email));
     $x("//td[text()='Gender']").parent().shouldHave(text(gender));
