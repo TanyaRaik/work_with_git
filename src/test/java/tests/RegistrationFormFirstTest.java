@@ -33,7 +33,6 @@ public class RegistrationFormFirstTest extends TestBase{
         registrationPage.InitStudentRegistration();
         registrationPage.checkRegistrationFields(firstName, lastName, userEmail, gender, userNumber, day, month, year,
                 hobby1, fileName, currentAddress, state, city);
-
     }
 
     private void fillInFormFields() {
